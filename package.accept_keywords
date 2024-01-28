@@ -20,3 +20,5 @@ dev-python/resolvelib
 <virtual/rust-1.73 ~amd64
 <dev-lang/rust-1.73 ~amd64
 
+# dependency required by "mail-filter/rspamd-3.8.1::gentoo"
+~dev-libs/vectorscan-5.4.11 ~amd64
