@@ -1,0 +1,3 @@
+CFLAGS="-O2 -ggdb3 -march=corei7 -pipe"
+CXXFLAGS="-O2 -ggdb3 -march=corei7 -pipe"
+FEATURES="${FEATURES} installsources"

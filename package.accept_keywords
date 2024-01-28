@@ -1,0 +1,22 @@
+app-antivirus/clamav
+app-antivirus/clamav-unofficial-sigs
+mail-filter/rspamd
+dev-libs/hyperscan
+
+# required by app-eselect/eselect-lua (argument)
+app-eselect/eselect-lua ~amd64
+app-eselect/eselect-luajit ~amd64
+dev-lang/lua ~amd64
+dev-lang/luajit ~amd64
+
+# required by mail-client/s-nail (argument)
+mail-client/s-nail ~amd64
+
+# required by app-admin/ansible-base-2.11.1::gentoo
+# required by app-admin/ansible-4.1.0::gentoo
+dev-python/resolvelib
+
+# required by app-antivirus/clamav-1.2.0::gentoo
+<virtual/rust-1.73 ~amd64
+<dev-lang/rust-1.73 ~amd64
+
