@@ -1,0 +1,58 @@
+# wslg uses wayland, we do not use audio
+*/* -handbook -kwallet
+*/* dbus elfutils icu vulkan wayland X qt6 modules-compress kf6compat
+
+kde-apps/kate-addons lspclient
+
+# required for google chrome
+>=app-text/ghostscript-gpl-9.09 cups
+
+# dependency required by "www-servers/nginx-1.23.2-r3::gentoo"
+app-misc/mime-types nginx
+
+# required by bcc
+dev-libs/libbpf static-libs
+
+# cleanup depends
+media-libs/libcanberra -udev
+
+# (dependency required by "kde-plasma/kwin-5.26.5::gentoo" [ebuild])
+# (dependency required by "kde-plasma/libkworkspace-5.26.5::gentoo" [ebuild])
+# (dependency required by "kde-plasma/systemsettings-5.26.5::gentoo" [ebuild])
+kde-frameworks/kconfig qml
+kde-frameworks/kitemmodels qml
+
+# require specific lua version
+net-analyzer/nmap  -nse
+
+app-containers/docker overlay
+
+dev-lang/rust clippy profiler rust-analyzer rust-src rustfmt wasm
+
+# dependency required by "sys-apps/apparmor-utils-3.0.8::gentoo"
+sys-libs/libapparmor python
+
+net-misc/openssh -hpn -X509
+
+# dependency required by "dev-qt/qtwayland"
+dev-qt/qtbase opengl
+
+# required by dev-qt/qtwayland-6.5.1::gentoo
+# required by dev-qt/qtbase-6.5.1-r1::gentoo[wayland]
+# required by dev-qt/qtsvg-6.5.1::gentoo
+# required by dev-qt/qtsvg (argument)
+>=dev-qt/qtdeclarative-6.5.1 opengl
+
+dev-qt/qtbase mysql tslib tuio vnc vulkan
+
+# inkscape
+app-text/poppler cairo
+media-gfx/inkscape dia exif imagemagick openmp postscript svg2 visio
+
+#(dependency required by "app-crypt/swtpm-0.8.0-r2::gentoo" [ebuild])
+#(dependency required by "app-emulation/libvirt-9.4.0-r3::gentoo[qemu]" [installed])
+>=net-libs/gnutls-3.8.0 pkcs11
+
+dev-qt/qtwayland compositor qml
+media-video/ffmpeg  vaapi x264 x265 opencl opengl openh264 sdl vpx xvid
+
