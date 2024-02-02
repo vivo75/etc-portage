@@ -1,0 +1,133 @@
+## Python stuff in profile make.default
+*/* LUA_SINGLE_TARGET: -* lua5-4
+*/* lua_single_target_lua5-4
+*/* PYTHON_SINGLE_TARGET: -* python3_11
+*/* PYTHON_TARGETS: -* python3_11
+*/* RUBY_TARGETS: -*
+*/* POSTGRES_TARGETS: -* postgres16
+*/* qt5 -webengine cxx kerberos pgo lto graphite thunderbolt
+*/* openmp pipewire unicode zfs jpegxl
+kde-*/* -thunderbolt telemetry
+
+sci-geosciences/geopy python
+sci-geosciences/GeographicLib python
+sci-libs/gdal python
+dev-db/postgis topology
+sci-libs/gdal postgres
+x11-libs/qwt qt5 
+#sci-geosciences/qgis 3d mapserver opencl python
+
+dev-libs/weston fullscreen headless rdp remoting screen-sharing
+
+
+# porting from desk1
+dev-lang/ruby               -rdoc
+dev-libs/boost              context
+media-libs/mesa             d3d9 osmesa vdpau
+# iwd permit to avoid wpa-supplicant
+net-misc/networkmanager     iwd
+net-print/cups-filters      ipp_autosetup perl zeroconf
+net-print/cups              zeroconf
+net-print/hplip             -minimal kde
+sys-apps/portage            gentoo-dev
+sys-apps/util-linux         caps
+sys-devel/gcc               lto
+sys-devel/llvm              exegesis
+sys-fs/e2fsprogs            fuse
+sys-libs/libomp             offload
+
+# warned from ebuild it's good practice
+sys-libs/compiler-rt clang
+
+# avoid gtk2 spell
+net-im/pidgin -spell
+
+# bad deps
+net-libs/gtk-vnc -pulseaudio
+
+# require db:5.3
+dev-lang/php -berkdb
+
+# really ugly w/o kde
+app-office/libreoffice -clang kde pdfimport
+
+# put in profile
+kde-apps/okular chm
+kde-plasma/ksysguard pcap
+
+kde-plasma/plasma-desktop emoji
+kde-plasma/kwin caps multimedia screencast
+
+# remote desktops
+x11-wm/xpra html5 server -sound vpx webcam webp
+dev-python/pillow webp
+
+# io-uring should be available in kernel 5.0
+app-emulation/qemu io-uring
+
+
+sci-libs/lapack eselect-ldso
+
+app-text/tesseract opencl training webp
+app-text/tessdata_best L10N: de en it eu ru zh
+app-text/tessdata_fast L10N: de en it eu ru zh
+media-libs/leptonica webp
+kde-apps/kdeutils-meta 7zip gpg rar webengine
+kde-apps/kio-extras nfs samba
+media-gfx/gimp vector-icons
+
+# ipython qtconsole
+dev-python/ipython  examples matplotlib notebook 
+dev-python/matplotlib examples excel webagg
+dev-python/PyQt5 designer examples webchannel location multimedia network positioning sensors serialport sql x11extras xmlpatterns
+dev-python/QtPy printsupport designer -webengine location multimedia network positioning -pyside2 sensors serialport sql x11extras xmlpatterns
+
+# misc
+# move app-emulation/containerd app-containers/containerd
+app-containers/containerd cri
+sys-cluster/minikube libvirt
+net-misc/tigervnc server
+net-misc/xrdp fuse pixman
+sys-cluster/k3s -kubectl-symlink rootless
+virtual/rust rustfmt
+dev-lang/rust clippy rls rustfmt wasm rust-src
+kde-apps/kate lspclient sql
+dev-db/mariadb -client-libs galera sst-rsync sst-mariabackup s3 -columnstore -extraengine  
+x11-base/xorg-server xephyr kdrive
+
+dev-qt/qtwebengine -kerberos
+
+# we compile kernel modules elsewhere
+dev-util/sysdig -modules
+
+app-portage/grs server
+
+# 2022-04 enable this stuff for desktop, you have no idea how much old stuff is still laying around
+dev-libs/openssl weak-ssl-ciphers
+
+# need gitk
+dev-vcs/git tk
+
+gui-apps/waypipe dmabuf
+
+sys-kernel/linux-firmware compress
+net-libs/libtirpc ipv6
+net-misc/curl websockets
+
+# net-misc/freerdp openh264 # better enable h264 when there is a GPU present
+# when using server components ensure the build uses openh264 and disable ffmpeg support. that one is missing the encoder component
+# https://github.com/FreeRDP/FreeRDP/issues/4028
+net-misc/freerdp -ffmpeg openh264
+
+sys-devel/llvm binutils-plugin
+
+# will not use X
+sys-process/psmisc -X
+
+app-containers/docker overlay
+#sys-fs/lvm2 thin
+
+media-video/ffmpeg libplacebo
+media-libs/phonon -vlc
+
+>=app-containers/skopeo-1.14.0 device-mapper rootless

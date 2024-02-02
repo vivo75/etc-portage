@@ -1,0 +1,7 @@
+sys-kernel/vanilla-sources-9
+sys-kernel/gentoo-sources-9
+app-emulation/virtualbox-modules-6.1.26
+app-emulation/virtualbox-modules-6.1.36
+app-emulation/virtualbox-modules-6.1.38
+#sys-apps/rescan-scsi-bus-9999
+#x11-plugins/pidgin-sipe-1.25.0-r1

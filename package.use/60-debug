@@ -1,0 +1,9 @@
+kde-apps/kate debug
+dev-qt/qtcore debug
+dev-qt/qtgui debug
+dev-qt/qtgui debug
+dev-qt/qtwidgets debug
+kde-apps/kate debug
+kde-frameworks/kparts debug
+kde-frameworks/ktexteditor debug
+

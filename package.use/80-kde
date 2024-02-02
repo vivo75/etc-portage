@@ -1,0 +1,109 @@
+*/* icu io-uring ogg qt6
+
+dev-qt/qtwayland compositor
+media-libs/mesa zink
+
+# required by @kde-applications-live (argument)
+# required by @kdegames-live
+# required by @kdemultimedia-live
+# required by @kdenetwork-live
+# required by @kdepim-live
+# required by @kdesdk-live
+# required by @kdeutils-live
+# required by app-editors/ghostwriter-9999::kde
+# required by app-office/merkuro-9999::kde
+# required by dev-python/QtPy-2.4.1-r1::gentoo[pyqt5]
+# required by dev-qt/qtcharts-6.9999::gentoo
+# required by dev-qt/qtcharts-6.9999::gentoo[qml]
+# required by dev-qt/qtwayland-5.15.11-r1::gentoo
+# required by dev-qt/qtwebengine-5.15.11_p20231120::gentoo
+# required by kde-apps/akonadi-9999::kde
+# required by kde-apps/dolphin-plugins-dropbox-9999::kde
+# required by kde-apps/filelight-9999::kde
+# required by kde-apps/kajongg-9999::kde[python_single_target_python3_11]
+# required by kde-apps/kamoso-9999::kde
+# required by kde-apps/kanagram-9999::kde
+# required by kde-apps/kcachegrind-9999::kde
+# required by kde-apps/kde-apps-meta-9999::kde[education]
+# required by kde-apps/kde-apps-meta-9999::kde[graphics]
+# required by kde-apps/kde-apps-meta-9999::kde[multimedia]
+# required by kde-apps/kde-apps-meta-9999::kde[network]
+# required by kde-apps/kde-apps-meta-9999::kde[utils]
+# required by kde-apps/kdeedu-meta-9999::kde
+# required by kde-apps/kdegraphics-meta-9999::kde
+# required by kde-apps/kdemultimedia-meta-9999::kde
+# required by kde-apps/kdenetwork-meta-9999::kde
+# required by kde-apps/kdenlive-9999::kde
+# required by kde-apps/kdepim-meta-9999::kde
+# required by kde-apps/kdepim-runtime-9999::kde
+# required by kde-apps/kdesdk-meta-9999::kde
+# required by kde-apps/kdeutils-meta-9999::kde
+# required by kde-apps/kdeutils-meta-9999::kde[webengine]
+# required by kde-apps/kgpg-9999::kde
+# required by kde-apps/krdc-9999::kde[rdp]
+# required by kde-apps/okular-9999::kde[image-backend]
+# required by kde-apps/okular-9999::kde[pdf]
+# required by kde-apps/rocs-9999::kde
+# required by kde-frameworks/kwayland-5.110.0::gentoo
+# required by kde-frameworks/plasma-5.110.0::gentoo
+# required by kde-frameworks/qqc2-desktop-style-5.239.9999::kde
+# required by kde-frameworks/qqc2-desktop-style-9999::kde
+# required by kde-misc/kclock-9999::kde
+# required by kde-misc/kweather-9999::kde
+# required by kde-plasma/breeze-5.27.8-r1::gentoo
+# required by kde-plasma/kde-cli-tools-5.27.8::gentoo
+# required by kde-plasma/kwin-5.27.8-r3::gentoo
+# required by kde-plasma/libkworkspace-5.27.8::gentoo
+# required by kde-plasma/libplasma-9999::kde
+# required by media-gfx/graphviz-9.0.0::gentoo
+# required by media-libs/libepoxy-1.5.10-r2::gentoo[egl]
+# required by media-libs/mesa-23.1.8::gentoo
+# required by media-libs/mlt-7.20.0-r1::gentoo[frei0r]
+# required by media-libs/mlt-7.20.0-r1::gentoo[sdl]
+# required by media-plugins/frei0r-plugins-1.8.0::gentoo[facedetect]
+# required by media-plugins/gst-plugins-meta-1.20.6::gentoo
+# required by media-sound/elisa-9999::kde
+# required by net-im/neochat-9999::kde
+# required by net-misc/dropbox-cli-2023::gentoo[gpg]
+# required by x11-base/xwayland-23.2.2::gentoo
+>=app-crypt/gpgme-1.23.1 python
+>=dev-python/PyQt5-5.15.10-r1 network gui svg sql widgets
+>=dev-python/QtPy-2.4.1-r1 svg
+>=dev-qt/qtgui-5.15.11 egl
+>=dev-qt/qtgui-5.15.11-r2 jpeg
+>=dev-qt/qtmultimedia-5.15.11:5 qml
+>=dev-qt/qtscript-5.15.11 scripttools
+>=dev-qt/qtsql-5.15.11-r1 mysql
+>=dev-qt/qtwebchannel-5.15.11:5 qml
+>=dev-qt/qtwebengine-5.15.11_p20231120:5 widgets
+>=kde-frameworks/kconfig-5.110.0:5 qml
+>=kde-frameworks/kglobalaccel-5.110.0 X
+>=kde-frameworks/kitemmodels-5.110.0 qml
+>=kde-frameworks/kwindowsystem-5.110.0:5 X
+>=media-libs/gd-2.3.3-r4 fontconfig truetype
+>=media-libs/gst-plugins-base-1.22.3 alsa theora
+>=media-libs/libglvnd-1.7.0 X
+>=media-libs/libsdl2-2.28.5 opengl
+>=media-libs/mesa-23.1.8 wayland
+>=media-libs/mlt-7.20.0-r1 ffmpeg xml sdl frei0r 
+>=media-libs/opencv-4.8.1 contribdnn
+>=media-plugins/gst-plugins-meta-1.20.6 vorbis alsa v4l theora
+app-text/poppler nss
+dev-qt/qt5compat qml
+dev-qt/qtbase opengl
+dev-qt/qtcharts qml
+dev-qt/qtdeclarative opengl
+dev-qt/qtmultimedia qml gstreamer
+dev-qt/qtpositioning geoclue
+dev-qt/qtwebengine widgets
+kde-frameworks/kconfig qml
+kde-frameworks/kfilemetadata taglib
+kde-frameworks/knotifications qml
+kde-frameworks/sonnet qml
+media-libs/libcanberra alsa
+media-video/ffmpeg libass sdl X
+net-misc/freerdp X
+
+dev-qt/qtbase accessibility
+dev-qt/qttools designer qdbus
+
