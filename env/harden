@@ -10,5 +10,5 @@ CXXFLAGS="-O3 -pipe -march=znver2 -mtune=znver3 -frecord-gcc-switches -fdiagnost
 	-fstack-clash-protection -fstack-protector-strong"
 FCFLAGS="-O3 -pipe -march=znver2 -mtune=znver3"
 FFLAGS="-O3 -pipe -march=znver2 -mtune=znver3"
-LDFLAGS="-Wl,-O1 -Wl,--as-needed -Wl,-z,pack-relative-relocs -Wl,-z,nodlopen -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now"
+LDFLAGS="-Wl,-O1 -Wl,--as-needed -Wl,-z,pack-relative-relocs -Wl,-z,relro -Wl,-z,now"
 
