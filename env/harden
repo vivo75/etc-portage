@@ -1,0 +1,13 @@
+# https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++
+# -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=3
+# -D_GLIBCXX_ASSERTIONS
+CFLAGS="-O3 -pipe -march=znver2 -mtune=znver3 -frecord-gcc-switches -fdiagnostics-color=never \
+-fstrict-flex-arrays=3\
+-fstack-clash-protection -fstack-protector-strong"
+CXXFLAGS="-O3 -pipe -march=znver2 -mtune=znver3 -frecord-gcc-switches -fdiagnostics-color=never\
+-fstrict-flex-arrays=3\
+-fstack-clash-protection -fstack-protector-strong"
+FCFLAGS="-O3 -pipe -march=znver2 -mtune=znver3"
+FFLAGS="-O3 -pipe -march=znver2 -mtune=znver3"
+LDFLAGS="-Wl,-O1 -Wl,--as-needed -Wl,-z,pack-relative-relocs -Wl,-z,relro -Wl,-z,now"
+
