@@ -1,0 +1,25 @@
+*/* ABI_X86: -32
+*/* LUA_SINGLE_TARGET: -* luajit
+*/* LUA_TARGETS: -* luajit
+*/* PYTHON_SINGLE_TARGET: -* python3_11
+*/* PYTHON_TARGETS: -* python3_11
+*/* RUBY_TARGETS: -*
+*/* PHP_TARGETS: php8-1 php8-2
+*/* POSTGRES_TARGETS: -* postgres16
+*/* CPU_FLAGS_X86: aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt rdrand sha sse sse2 sse3 sse4_1 sse4_2 sse4a ssse3
+*/* -berkdb -bindist -cramfs -dhcp -e2fsprogs -gdbm -installkernel
+*/* -keyutils -kmod -iptables -netifrc -smartcard -tftp -udev -webengine
+*/* caps cfi cxx hardened kerberos lto openmp
+*/* orc pgo profile unicode zfs zstd
+kde-*/* telemetry
+
+# gcc only used for glibc, keep it minimal
+sys-devel/gcc -fortran -graphite -lto -multilib -nls -openmp -pgo default-stack-clash-protection default-znow
+
+# minimal to avoid gcc dependency
+#sys-libs/compiler-rt-sanitizers -* cfi libfuzzer orc profile scudo
+sys-libs/compiler-rt-sanitizers -* orc profile scudo
+
+# let's try this, but be ready to revert
+sys-process/procps modern-top
+

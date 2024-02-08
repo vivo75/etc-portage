@@ -1,0 +1,3 @@
+LD="ld.bfd"
+#LDFLAGS="${LDFLAGS} -Wl,--as-needed"
+
