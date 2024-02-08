@@ -1,0 +1,20 @@
+app-misc/mime-types nginx
+dev-lang/php -debug cli
+
+# FTB sys-devel/gcc-13.2.1_p20240113-r1:13/13
+sys-devel/gcc -hardened
+
+# (dependency required by "mail-filter/amavisd-new-2.13.0::gentoo[snmp]" [ebuild])
+net-analyzer/net-snmp perl
+
+# mail-filter/libspf2 conflict with dev-perl/Mail-SPF
+mail-filter/opendmarc -spf
+
+# sys-libs/db-5.3.28-r9 seem to require gold linker plugin 
+sys-devel/binutils gold
+
+# dependency required by "sys-devel/llvmgold-17::gentoo"
+sys-devel/llvm binutils-plugin
+
+# FTB
+sys-libs/db -cxx

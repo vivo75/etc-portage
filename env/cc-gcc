@@ -1,0 +1,24 @@
+CC="/usr/x86_64-pc-linux-gnu/gcc-bin/13/x86_64-pc-linux-gnu-gcc"
+CXX="/usr/x86_64-pc-linux-gnu/gcc-bin/13/x86_64-pc-linux-gnu-g++"
+LD="ld.bfd"
+LDFLAGS="${LDFLAGS} -Wl,--as-needed"
+
+#AR="llvm-ar"
+#AS="clang -c"
+#CPP="clang-cpp"
+#NM="llvm-nm"
+#STRIP="llvm-strip"
+#RANLIB="llvm-ranlib"
+#OBJCOPY="llvm-objcopy"
+#STRINGS="llvm-strings"
+#OBJDUMP="llvm-objdump"
+#READELF="llvm-readelf"
+#ADDR2LINE="llvm-addr2line"
+
+
+CFLAGS="-O3 -pipe -march=znver2 -mtune=znver3 -frecord-gcc-switches -fdiagnostics-color=never"
+CXXFLAGS="-O3 -pipe -march=znver2 -mtune=znver3 -frecord-gcc-switches -fdiagnostics-color=never"
+FCFLAGS="-O3 -pipe -march=znver2 -mtune=znver3"
+FFLAGS="-O3 -pipe -march=znver2 -mtune=znver3"
+LDFLAGS="-Wl,-O1 -Wl,--as-needed -Wl,-z,pack-relative-relocs -Wl,-z,relro -Wl,-z,now"
+
