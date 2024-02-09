@@ -13,6 +13,9 @@
 */* orc pgo profile unicode zfs zstd
 kde-*/* telemetry
 
+# f1r
+www-servers/apache APACHE2_MODULES: authn_socache
+
 # gcc only used for glibc, keep it minimal
 sys-devel/gcc -fortran -graphite -lto -multilib -nls -openmp -pgo default-stack-clash-protection default-znow
 
