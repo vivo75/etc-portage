@@ -1,1 +1,1 @@
-../../.gentoo/repos/buildovl/profiles/vivo/linux/default/systemd/wsl
+/.gentoo/repos/buildovl/profiles/vivo/linux/default/systemd/wsl
