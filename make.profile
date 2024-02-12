@@ -1,1 +1,1 @@
-../../.gentoo/repos/buildovl/profiles/llvm/mta
+/.gentoo/repos/buildovl/profiles/llvm/mta
