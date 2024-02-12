@@ -1,5 +1,0 @@
-#sys-devel/gcc:12
-sys-devel/gcc:13
-dev-lang/python:3.10
-dev-lang/python:3.12
-dev-lang/python:3.13

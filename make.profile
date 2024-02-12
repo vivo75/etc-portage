@@ -1,1 +1,1 @@
-../../.gentoo/repos/buildovl/profiles/vivo/linux/default/systemd/server
+/.gentoo/repos/buildovl/profiles/vivo/linux/default/systemd/server
