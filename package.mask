@@ -1,9 +1,0 @@
-## keep it at current kernel
-#<sys-kernel/linux-headers-5.10
-#>=sys-kernel/linux-headers-5.11
-
-# fail to patch
-=net-misc/memcached-1.6.6::gentoo
-
-sys-cluster/kubernetes
-
