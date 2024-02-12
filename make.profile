@@ -1,1 +1,1 @@
-../../.gentoo/repos/buildovl/profiles/vivo/desktop
+/.gentoo/repos/buildovl/profiles/vivo/desktop
