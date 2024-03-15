@@ -1,0 +1,6 @@
+*/* opengl
+media-libs/phonon -vlc
+
+# dependency required by "kde-frameworks/kio-9999::kde
+dev-qt/qtbase libproxy
+
