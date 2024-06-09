@@ -1,3 +1,21 @@
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=kde-apps/kate-9999 **
+# required by kde-apps/dolphin-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-apps/kio-extras-9999 **
+# required by kde-apps/kate-addons-9999::kde
+# required by kde-apps/kate-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-apps/kate-lib-9999 **
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=kde-apps/dolphin-9999 **
+# required by kde-apps/kate-9999::kde
+# required by @selected
+# required by @world (argument)
+=kde-apps/kate-addons-9999 **
+
 =kde-misc/kdiff3-9999 **
 =kde-apps/kate-24.02* **
 =kde-apps/kate-addons-24.02* **
@@ -71,3 +89,49 @@
 =kde-apps/libkomparediff2-9999 **
 =kde-apps/kompare-9999 **
 
+# required by dev-dotnet/dotnet-sdk-bin-8.0.202::gentoo
+# required by virtual/dotnet-sdk-8.0::gentoo
+# required by app-shells/pwsh-7.4.1::gentoo
+# required by app-shells/pwsh (argument)
+=dev-util/lttng-ust-2.12.9 ~amd64
+# required by dev-dotnet/dotnet-sdk-bin-8.0.202::gentoo
+# required by virtual/dotnet-sdk-8.0::gentoo
+# required by app-shells/pwsh-7.4.1::gentoo
+# required by app-shells/pwsh (argument)
+=dev-util/lttng-ust-2.12.4 ~amd64
+=dev-util/lttng-ust-2.13.2 ~amd64
+# required by dev-dotnet/dotnet-sdk-bin-8.0.203::gentoo
+# required by dev-dotnet/dotnet-sdk-bin (argument)
+=dev-util/lttng-ust-2.12.2 ~amd64
+# required by dev-dotnet/dotnet-sdk-bin (argument)
+=dev-dotnet/dotnet-sdk-bin-8.0.204 ~amd64
+# required by dev-dotnet/dotnet-sdk-bin-8.0.204::gentoo
+# required by virtual/dotnet-sdk-8.0::gentoo
+# required by app-shells/pwsh-7.4.1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-dotnet/dotnet-runtime-nugets-7.0.18 ~amd64
+# required by dev-dotnet/dotnet-sdk-bin-8.0.204::gentoo
+# required by virtual/dotnet-sdk-8.0::gentoo
+# required by app-shells/pwsh-7.4.1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-dotnet/dotnet-runtime-nugets-8.0.4 ~amd64
+# required by dev-dotnet/dotnet-sdk-bin-8.0.204::gentoo
+# required by virtual/dotnet-sdk-8.0::gentoo
+# required by app-shells/pwsh-7.4.1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-dotnet/dotnet-runtime-nugets-6.0.29 ~amd64
+
+# required by kde-apps/gwenview-9999::kde
+# required by kde-apps/gwenview:6 (argument)
+=media-libs/kimageannotator-0.7.1 ~amd64
+# required by kde-apps/gwenview-9999::kde
+# required by kde-apps/gwenview:6 (argument)
+=kde-frameworks/kimageformats-9999 **
+# required by kde-apps/gwenview:6 (argument)
+=kde-apps/gwenview-9999 **
+# required by kde-apps/gwenview-9999::kde
+# required by kde-apps/gwenview:6 (argument)
+=media-libs/kcolorpicker-0.3.1 ~amd64

@@ -1,6 +1,14 @@
+*/* PYTHON_TARGETS: -* python3_12
+*/* PYTHON_SINGLE_TARGET: -* python3_12
+
 */* opengl
 media-libs/phonon -vlc
 
 # dependency required by "kde-frameworks/kio-9999::kde
 dev-qt/qtbase libproxy
 
+dev-lang/php curl debug gd inifile mysqli mysql pdo phpdbg postgres sockets sysvipc
+dev-libs/tree-sitter-bash python
+app-text/poppler cairo
+sys-fs/squashfs-tools lzo
+media-libs/gegl cairo
