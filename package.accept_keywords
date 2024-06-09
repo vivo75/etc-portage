@@ -1,183 +1,56 @@
-# required by @__auto_slot_operator_replace_installed__ (argument)
-=kde-apps/kate-9999 **
-# required by kde-apps/dolphin-9999::kde
-# required by @selected
-# required by @world (argument)
-=kde-apps/kio-extras-9999 **
-# required by kde-apps/kate-addons-9999::kde
-# required by kde-apps/kate-9999::kde
-# required by @selected
-# required by @world (argument)
-=kde-apps/kate-lib-9999 **
-# required by @__auto_slot_operator_replace_installed__ (argument)
-=kde-apps/dolphin-9999 **
-# required by kde-apps/kate-9999::kde
-# required by @selected
-# required by @world (argument)
-=kde-apps/kate-addons-9999 **
+kde-frameworks/extra-cmake-modules ~amd64
+kde-misc/kdiff3 **
+media-libs/phonon ~amd64
+sys-auth/polkit-qt ~amd64
 
-=kde-misc/kdiff3-9999 **
-=kde-apps/kate-24.02* **
-=kde-apps/kate-addons-24.02* **
-=kde-apps/kate-lib-24.02* **
-=kde-apps/kompare-24.02* **
-=kde-apps/konsole-24.02* **
-=kde-apps/libkomparediff2-24.02* **
-=kde-apps/kio-extras-24.02* **
-=kde-apps/dolphin-24.02* **
-=kde-apps/dolphin-plugins-git-24.02* **
-
-=kde-frameworks/attica-9999 **
-=kde-frameworks/extra-cmake-modules-9999 **
-=kde-frameworks/karchive-9999 **
-=kde-frameworks/kauth-9999 **
-=kde-frameworks/kbookmarks-9999 **
-=kde-frameworks/kcmutils-9999 **
-=kde-frameworks/kcodecs-9999 **
-=kde-frameworks/kcolorscheme-9999 **
-=kde-frameworks/kcompletion-9999 **
-=kde-frameworks/kconfig-9999 **
-=kde-frameworks/kconfigwidgets-9999 **
-=kde-frameworks/kcoreaddons-9999 **
-=kde-frameworks/kcrash-9999 **
-=kde-frameworks/kdbusaddons-9999 **
-=kde-frameworks/kded-9999 **
-=kde-frameworks/kdoctools-9999 **
-=kde-frameworks/kglobalaccel-9999 **
-=kde-frameworks/kguiaddons-9999 **
-=kde-frameworks/ki18n-9999 **
-=kde-frameworks/kiconthemes-9999 **
-=kde-frameworks/kio-9999 **
-=kde-frameworks/kirigami-9999 **
-=kde-frameworks/kitemmodels-9999 **
-=kde-frameworks/kitemviews-9999 **
-=kde-frameworks/kjobwidgets-9999 **
-=kde-frameworks/knewstuff-9999 **
-=kde-frameworks/knotifications-9999 **
-=kde-frameworks/kpackage-9999 **
-=kde-frameworks/kparts-9999 **
-=kde-frameworks/kservice-9999 **
-=kde-frameworks/ksvg-9999 **
-=kde-frameworks/ktexteditor-9999 **
-=kde-frameworks/ktextwidgets-9999 **
-=kde-frameworks/kwallet-9999 **
-=kde-frameworks/kwidgetsaddons-9999 **
-=kde-frameworks/kwindowsystem-9999 **
-=kde-frameworks/kxmlgui-9999 **
-=kde-frameworks/solid-9999 **
-=kde-frameworks/sonnet-9999 **
-=kde-frameworks/syntax-highlighting-9999 **
-=kde-frameworks/threadweaver-9999 **
-=kde-frameworks/knotifyconfig-9999 **
-=kde-frameworks/kpty-9999 **
-=kde-frameworks/krunner-9999 **
-
-=kde-plasma/libplasma-9999 **
-=kde-plasma/plasma-activities-9999 **
-=kde-plasma/polkit-kde-agent-9999 **
-=kde-plasma/kwayland-9999 **
-=kde-plasma/kwayland-integration-9999 **
-=kde-plasma/systemsettings-9999 **
-
-=sys-auth/polkit-qt-9999 **
-
-=dev-libs/qcoro-0.10.0-r1 ~amd64
-=media-libs/phonon-9999 **
-=media-libs/phonon-vlc-9999 **
-=kde-apps/libkexiv2-9999 **
-=kde-frameworks/kdnssd-9999 **
-=kde-apps/libkomparediff2-9999 **
-=kde-apps/kompare-9999 **
-~dev-python/Nuitka-2.1.5 ~amd64
-=kde-frameworks/breeze-icons-9999 **
-=app-containers/podman-tui-1.0.1 ~amd64
-
-# required by kde-apps/gwenview-9999::kde
-# required by kde-apps/gwenview:6 (argument)
-=media-libs/kimageannotator-0.7.1 ~amd64
-# required by kde-apps/gwenview-9999::kde
-# required by kde-apps/gwenview:6 (argument)
-=kde-frameworks/kimageformats-9999 **
-# required by kde-apps/gwenview:6 (argument)
-=kde-apps/gwenview-9999 **
-# required by kde-apps/gwenview-9999::kde
-# required by kde-apps/gwenview:6 (argument)
-=media-libs/kcolorpicker-0.3.1 ~amd64
-
-# required by dev-dotnet/dotnet-sdk-bin-8.0.203::gentoo
-# required by dev-dotnet/dotnet-sdk-bin (argument)
-=dev-util/lttng-ust-2.12.2 ~amd64
-# required by dev-dotnet/dotnet-sdk-bin (argument)
-=dev-dotnet/dotnet-sdk-bin-8.0.204 ~amd64
-# required by dev-dotnet/dotnet-sdk-bin-8.0.204::gentoo
-# required by virtual/dotnet-sdk-8.0::gentoo
-# required by app-shells/pwsh-7.4.1::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-dotnet/dotnet-runtime-nugets-7.0.18 ~amd64
-# required by dev-dotnet/dotnet-sdk-bin-8.0.204::gentoo
-# required by virtual/dotnet-sdk-8.0::gentoo
-# required by app-shells/pwsh-7.4.1::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-dotnet/dotnet-runtime-nugets-8.0.4 ~amd64
-# required by dev-dotnet/dotnet-sdk-bin-8.0.204::gentoo
-# required by virtual/dotnet-sdk-8.0::gentoo
-# required by app-shells/pwsh-7.4.1::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-dotnet/dotnet-runtime-nugets-6.0.29 ~amd64
-
-# required by dev-dotnet/dotnet-sdk-bin-8.0.204::gentoo
-# required by dev-dotnet/dotnet-sdk-bin (argument)
-=dev-util/lttng-ust-2.12.9 ~amd64
-# required by dev-dotnet/dotnet-sdk-bin-8.0.204::gentoo
-# required by dev-dotnet/dotnet-sdk-bin (argument)
-=dev-util/lttng-ust-2.12.4 ~amd64
-
-# required by dev-dotnet/dotnet-sdk-bin-8.0.202::gentoo
-# required by virtual/dotnet-sdk-8.0::gentoo
-# required by app-shells/pwsh-7.4.1::gentoo
-# required by app-shells/pwsh (argument)
-=dev-util/lttng-ust-2.12.9 ~amd64
-# required by dev-dotnet/dotnet-sdk-bin-8.0.202::gentoo
-# required by virtual/dotnet-sdk-8.0::gentoo
-# required by app-shells/pwsh-7.4.1::gentoo
-# required by app-shells/pwsh (argument)
-=dev-util/lttng-ust-2.12.4 ~amd64
-=dev-util/lttng-ust-2.13.2 ~amd64
-# required by dev-dotnet/dotnet-sdk-bin-8.0.203::gentoo
-# required by dev-dotnet/dotnet-sdk-bin (argument)
-=dev-util/lttng-ust-2.12.2 ~amd64
-# required by dev-dotnet/dotnet-sdk-bin (argument)
-=dev-dotnet/dotnet-sdk-bin-8.0.204 ~amd64
-# required by dev-dotnet/dotnet-sdk-bin-8.0.204::gentoo
-# required by virtual/dotnet-sdk-8.0::gentoo
-# required by app-shells/pwsh-7.4.1::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-dotnet/dotnet-runtime-nugets-7.0.18 ~amd64
-# required by dev-dotnet/dotnet-sdk-bin-8.0.204::gentoo
-# required by virtual/dotnet-sdk-8.0::gentoo
-# required by app-shells/pwsh-7.4.1::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-dotnet/dotnet-runtime-nugets-8.0.4 ~amd64
-# required by dev-dotnet/dotnet-sdk-bin-8.0.204::gentoo
-# required by virtual/dotnet-sdk-8.0::gentoo
-# required by app-shells/pwsh-7.4.1::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-dotnet/dotnet-runtime-nugets-6.0.29 ~amd64
-
-# required by kde-apps/gwenview-9999::kde
-# required by kde-apps/gwenview:6 (argument)
-=media-libs/kimageannotator-0.7.1 ~amd64
-# required by kde-apps/gwenview-9999::kde
-# required by kde-apps/gwenview:6 (argument)
-=kde-frameworks/kimageformats-9999 **
-# required by kde-apps/gwenview:6 (argument)
-=kde-apps/gwenview-9999 **
-# required by kde-apps/gwenview-9999::kde
-# required by kde-apps/gwenview:6 (argument)
-=media-libs/kcolorpicker-0.3.1 ~amd64
+kde-apps/dolphin:6 ~amd64
+kde-apps/kate-addons:6 ~amd64
+kde-apps/kate-lib:6 ~amd64
+kde-apps/kate:6 ~amd64
+kde-apps/kio-extras:6 ~amd64
+kde-apps/libkexiv2:6 ~amd64
+kde-frameworks/attica:6 ~amd64
+kde-frameworks/breeze-icons:6 ~amd64
+kde-frameworks/karchive:6 ~amd64
+kde-frameworks/kauth:6 ~amd64
+kde-frameworks/kbookmarks:6 ~amd64
+kde-frameworks/kcmutils:6 ~amd64
+kde-frameworks/kcodecs:6 ~amd64
+kde-frameworks/kcolorscheme:6 ~amd64
+kde-frameworks/kcompletion:6 ~amd64
+kde-frameworks/kconfig:6 ~amd64
+kde-frameworks/kconfigwidgets:6 ~amd64
+kde-frameworks/kcoreaddons:6 ~amd64
+kde-frameworks/kcrash:6 ~amd64
+kde-frameworks/kdbusaddons:6 ~amd64
+kde-frameworks/kded:6 ~amd64
+kde-frameworks/kdnssd:6 ~amd64
+kde-frameworks/kdoctools:6 ~amd64
+kde-frameworks/kglobalaccel:6 ~amd64
+kde-frameworks/kguiaddons:6 ~amd64
+kde-frameworks/ki18n:6 ~amd64
+kde-frameworks/kiconthemes:6 ~amd64
+kde-frameworks/kio:6 ~amd64
+kde-frameworks/kirigami:6 ~amd64
+kde-frameworks/kitemmodels:6 ~amd64
+kde-frameworks/kitemviews:6 ~amd64
+kde-frameworks/kjobwidgets:6 ~amd64
+kde-frameworks/knewstuff:6 ~amd64
+kde-frameworks/knotifications:6 ~amd64
+kde-frameworks/kpackage:6 ~amd64
+kde-frameworks/kparts:6 ~amd64
+kde-frameworks/kservice:6 ~amd64
+kde-frameworks/ksvg:6 ~amd64
+kde-frameworks/ktexteditor:6 ~amd64
+kde-frameworks/ktextwidgets:6 ~amd64
+kde-frameworks/kwallet:6 ~amd64
+kde-frameworks/kwidgetsaddons:6 ~amd64
+kde-frameworks/kwindowsystem:6 ~amd64
+kde-frameworks/kxmlgui:6 ~amd64
+kde-frameworks/solid:6 ~amd64
+kde-frameworks/sonnet:6 ~amd64
+kde-frameworks/syntax-highlighting:6 ~amd64
+kde-frameworks/threadweaver:6 ~amd64
+kde-plasma/libplasma:6 ~amd64
+kde-plasma/plasma-activities:6 ~amd64
+kde-plasma/polkit-kde-agent:6 ~amd64

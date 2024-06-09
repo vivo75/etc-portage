@@ -2,6 +2,9 @@
 */* PYTHON_SINGLE_TARGET: -* python3_12
 
 */* opengl
+
+dev-util/kdevelop:5 -gdbui -plasma
+
 media-libs/phonon -vlc
 
 # dependency required by "kde-frameworks/kio-9999::kde
