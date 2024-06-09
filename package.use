@@ -12,3 +12,5 @@ dev-libs/tree-sitter-bash python
 app-text/poppler cairo
 sys-fs/squashfs-tools lzo
 media-libs/gegl cairo
+dev-lang/rust lto
+
