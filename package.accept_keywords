@@ -1,3 +1,7 @@
+# https://discuss.linuxcontainers.org/t/incus-6-4-has-been-released/21323
+<app-containers/incus-6.5 ~amd64
+
+
 kde-frameworks/extra-cmake-modules ~amd64
 kde-misc/kdiff3 **
 media-libs/phonon ~amd64
