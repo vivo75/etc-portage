@@ -17,3 +17,6 @@ sys-fs/squashfs-tools lzo
 media-libs/gegl cairo
 dev-lang/rust lto
 
+# vscode req
+>=app-crypt/gcr-3.27.90 gtk
+app-editors/vscode kerberos
