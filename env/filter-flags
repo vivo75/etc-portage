@@ -1,0 +1,6 @@
+CFLAGS="-O3 -pipe -march=ivybridge -mtune=skylake"
+CXXFLAGS="-O3 -pipe -march=ivybridge -mtune=skylake"
+#FCFLAGS="-O3 -pipe -march=ivybridge -mtune=skylake"
+#FFLAGS="-O3 -pipe -march=ivybridge -mtune=skylake"
+#LDFLAGS="-v -Wl,-O1 -Wl,--as-needed -Wl,-z,pack-relative-relocs -Wl,-O2 -Wl,--as-needed -Wl,-z,pack-relative-relocs -Wl,-z,relro -Wl,-z,now"
+
