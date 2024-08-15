@@ -25,3 +25,6 @@ app-editors/vscode kerberos
 app-emulation/virt-manager gui
 >=net-misc/spice-gtk-0.42-r4 usbredir
 
+# krdp
+net-misc/freerdp server
+

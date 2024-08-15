@@ -58,3 +58,8 @@ kde-frameworks/threadweaver:6 ~amd64
 kde-plasma/libplasma:6 ~amd64
 kde-plasma/plasma-activities:6 ~amd64
 kde-plasma/polkit-kde-agent:6 ~amd64
+kde-plasma/krdp:6 ~amd64
+
+kde-frameworks/kstatusnotifieritem:6 ~amd64
+kde-plasma/kpipewire:6 ~amd64
+
