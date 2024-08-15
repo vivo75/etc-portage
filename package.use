@@ -20,3 +20,8 @@ dev-lang/rust lto
 # vscode req
 >=app-crypt/gcr-3.27.90 gtk
 app-editors/vscode kerberos
+
+# needed, can also be used remotely
+app-emulation/virt-manager gui
+>=net-misc/spice-gtk-0.42-r4 usbredir
+
