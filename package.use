@@ -7,6 +7,9 @@ dev-util/kdevelop:5 -gdbui -plasma
 
 media-libs/phonon -vlc
 
+# dependency required by "dev-util/bcc-0.29.1-r2::gentoo"
+dev-libs/libbpf static-libs
+
 # dependency required by "kde-frameworks/kio-9999::kde
 dev-qt/qtbase libproxy
 

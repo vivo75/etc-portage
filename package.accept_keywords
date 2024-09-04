@@ -1,3 +1,13 @@
+# required by @profile
+~dev-util/radare2-5.9.2 ~amd64
+~dev-util/docker-distribution-pruner-0.2.0 ~amd64
+~app-containers/cri-o-1.30.4 ~amd64
+~dev-python/podman-5.0.0 ~amd64
+~app-forensics/lynis-3.1.1 ~amd64
+
+# required by kde-apps/kate-24.08.0::gentoo
+>=kde-apps/kate-common-24.08.0 ~amd64
+
 # required by kde-apps/dolphin-24.05.2-r1::gentoo
 >=kde-apps/thumbnailers-24.05.2-r1 ~amd64
 
@@ -6,7 +16,7 @@
 
 
 kde-frameworks/extra-cmake-modules ~amd64
-kde-misc/kdiff3 **
+kde-misc/kdiff3 ~amd64
 media-libs/phonon ~amd64
 sys-auth/polkit-qt ~amd64
 
@@ -14,6 +24,7 @@ kde-apps/dolphin:6 ~amd64
 kde-apps/kate-addons:6 ~amd64
 kde-apps/kate-lib:6 ~amd64
 kde-apps/kate:6 ~amd64
+kde-apps/kate-common:6 ~amd64
 kde-apps/kio-extras:6 ~amd64
 kde-apps/libkexiv2:6 ~amd64
 kde-frameworks/attica:6 ~amd64
